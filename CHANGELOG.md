@@ -6,6 +6,27 @@ Both packages (`undef-telemetry` / `@undef/telemetry`) share a version number.
 
 ---
 
+## [0.5.0](https://github.com/undef-games/undef-telemetry/compare/undef-telemetry-v0.4.0...undef-telemetry-v0.5.0) (2026-03-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename npm package from @undef/telemetry to @undef-games/telemetry, bump VERSION to 0.4
+
+### Features
+
+* rename npm package from @undef/telemetry to @undef-games/telemetry, bump VERSION to 0.4 ([0576e26](https://github.com/undef-games/undef-telemetry/commit/0576e269bd019dcf0e4cf483497981426c65f3e6))
+
+
+### Bug Fixes
+
+* set VERSION to 0.4.0, update sync script to extract major.minor from any format ([5dd09dc](https://github.com/undef-games/undef-telemetry/commit/5dd09dc154b74e7169e486057b16abd4607b314b))
+
+
+### CI/CD
+
+* prevent major version bump while pre-1.0 ([5d01a6e](https://github.com/undef-games/undef-telemetry/commit/5d01a6e27303aeeeceb2a35f1945f33bc6aec1fe))
+
 ## [0.4.0](https://github.com/undef-games/undef-telemetry/compare/undef-telemetry-v0.3.0...undef-telemetry-v0.4.0) (2026-03-28)
 
 

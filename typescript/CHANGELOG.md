@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.5.0](https://github.com/undef-games/undef-telemetry/compare/telemetry-v0.4.0...telemetry-v0.5.0) (2026-03-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename npm package from @undef/telemetry to @undef-games/telemetry, bump VERSION to 0.4
+
+### Features
+
+* rename npm package from @undef/telemetry to @undef-games/telemetry, bump VERSION to 0.4 ([0576e26](https://github.com/undef-games/undef-telemetry/commit/0576e269bd019dcf0e4cf483497981426c65f3e6))
+
 ## [0.4.0](https://github.com/undef-games/undef-telemetry/compare/telemetry-v0.3.0...telemetry-v0.4.0) (2026-03-28)
 
 
