@@ -49,7 +49,10 @@ def _detect_secret_in_value(value: str) -> bool:
     """Return True if value matches a known secret pattern."""
     if len(value) < _MIN_SECRET_LENGTH:
         return False
-    return any(pattern.search(value) for _name, pattern in _SECRET_PATTERNS)
+    for _name, pattern in _SECRET_PATTERNS:  # noqa: SIM110  # pragma: no mutate
+        if pattern.search(value):
+            return True
+    return False
 
 
 _DEFAULT_SENSITIVE_KEYS = {"password", "token", "authorization", "api_key", "secret"}
